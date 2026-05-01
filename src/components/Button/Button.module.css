@@ -1,0 +1,31 @@
+.button {
+  width: 140px;
+  height: 56px;
+  border-radius: 20px;
+  margin: 44px auto 30px;
+  box-shadow:
+    10px 10px 20px #a3b1c6,
+    -10px -10px 20px #fff;
+  color: #5a6a82;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.1s ease;
+}
+
+.button:hover {
+  box-shadow:
+    12px 12px 24px #a3b1c6,
+    -12px -12px 24px #fff;
+}
+
+.button:active {
+  transform: scale(0.98);
+  box-shadow:
+    inset 5px 5px 10px #a3b1c6,
+    inset -5px -5px 10px #fff;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

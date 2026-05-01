@@ -1,0 +1,41 @@
+.panel {
+  width: 400px;
+  height: 320px;
+  box-sizing: border-box;
+  background-color: #dce3ec;
+  border-radius: 20px;
+  box-shadow:
+    -10px -10px 20px 0 #ffffff,
+    10px 10px 20px 0 #a3b1c6;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.heading {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #5a6a82;
+}
+
+.videoPlaceholder {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow:
+    inset -5px -5px 10px 0 #ffffff,
+    inset 5px 5px 10px 0 #a3b1c6;
+  width: 369px;
+  height: 220px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.videoControlsObserver {
+  padding-top: 10px;
+}

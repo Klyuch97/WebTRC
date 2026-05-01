@@ -1,0 +1,31 @@
+.videoControls {
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.videoControlButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  color: #6a6a73;
+  transition: color 0.15s ease;
+}
+
+.videoControlButtonMuted {
+  color: #ff0000;
+}
+
+.videoControlButtonMuted::after {
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 2px;
+  background-color: #ff0000;
+  transform: rotate(50deg);
+}
